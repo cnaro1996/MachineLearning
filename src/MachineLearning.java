@@ -141,26 +141,19 @@ public class MachineLearning {
      */
     public static int getDataSize(boolean digits, Type datatype) {
         // Size of array depends on the file
-        int size = 0;
         if(digits) {
             switch(datatype) {
-                case TEST: size = TESTDIGIT;
-                    break;
-                case TRAINING: size = TRAINDIGIT;
-                    break;
-                case VALIDATION: size = VALDIGIT;
-                    break;
+                case TEST: return TESTDIGIT;
+                case TRAINING: return TRAINDIGIT;
+                case VALIDATION: return VALDIGIT;
             }
         } else {
             switch (datatype) {
-                case TEST: size = TESTFACE;
-                    break;
-                case TRAINING: size = TRAINFACE;
-                    break;
-                case VALIDATION: size = VALFACE;
-                    break;
+                case TEST: return TESTFACE;
+                case TRAINING: return TRAINFACE;
+                case VALIDATION: return VALFACE;
             }
         }
-        return size;
+        return 0; // Never reached; Make the compiler happy.
     }
 }
