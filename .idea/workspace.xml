@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f880027-36ab-4f3c-88bf-02cfdcfa2a3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NaiveBayes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Feature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MachineLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MachineLearning.java" afterDir="false" />
     </list>
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565297400270</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactor getDataSize()&#10;&#10;Made it more compact.">
+      <created>1565297877325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565297877325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +109,7 @@
     <MESSAGE value="Add file parser for collecting and storing of data.&#10;&#10;Also add enum Type, Data object." />
     <MESSAGE value="Add file parser for collecting and storing of data.&#10;&#10;Can specify the amount of data to parse (in the form of&#10;percentage.)&#10;&#10;Also add enum Type, Data object." />
     <MESSAGE value="Add final ints for data amounts, addLabel method, scanImages Refactor&#10;&#10;The code that constructed the relative file path (in scanImages()) for &#10;the corresponding data file being used was separated into it's own &#10;method, getFilePath(). The same was done for the logic identifying the &#10;number of data points in the file: getDataSize(). &#10;&#10;You can specify how many data points are being used with the final&#10;static int variables at the start of the Machine Learning class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add final ints for data amounts, addLabel method, scanImages Refactor&#10;&#10;The code that constructed the relative file path (in scanImages()) for &#10;the corresponding data file being used was separated into it's own &#10;method, getFilePath(). The same was done for the logic identifying the &#10;number of data points in the file: getDataSize(). &#10;&#10;You can specify how many data points are being used with the final&#10;static int variables at the start of the Machine Learning class." />
+    <MESSAGE value="Refactor getDataSize()&#10;&#10;Made it more compact." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor getDataSize()&#10;&#10;Made it more compact." />
   </component>
 </project>

@@ -12,8 +12,12 @@ public class MachineLearning {
     static final int VALFACE = 301;
 
     public static void main(String[] args) {
-        Data[] data = scanImages(false, 0.10f, Type.VALIDATION);
-        addLabels(false, data, Type.VALIDATION);
+        // Set the values for what kind of data we want to use.
+        Type queryType = Type.TRAINING;
+        boolean digits = true;
+
+        Data[] data = scanImages(digits, 0.10f, queryType);
+        addLabels(digits, data, queryType);
 
         for(int i=0; i<data.length; i++) {
             System.out.println(data[i].data + "\n" + data[i].label);
